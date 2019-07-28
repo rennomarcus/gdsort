@@ -8,7 +8,7 @@ class SortScript:
     general_content = []
 
     def __init__(self, script_name):
-        self.script_name
+        self.script_name = script_name
 
     def get_func_name(self, word):
         return word[:word.find('(')]
